@@ -1,0 +1,17 @@
+everything from git bash 
+ls -a -l ~/.ssh
+
+eval $(ssh-agent -s) 
+
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa.pub
+
+heroku:keys add
+
+heroku create mukherjee-weather-application
+
+https://mukherjee-weather-application.herokuapp.com/ | https://git.heroku.com/mukherjee-weather-application.git
+
+git remote add origin https://github.com/Rijubrata/web-server.git
+git push -u origin master
